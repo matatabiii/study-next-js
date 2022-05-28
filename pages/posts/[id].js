@@ -23,7 +23,7 @@ export default function Post({ postData }) {
 
 export async function getStaticPaths() {
   // サーバーサイドで実行されるプログラム
-  const paths = getAllPostIds();
+  const paths = await getAllPostIds();
   return {
     paths,
     fallback: false,
