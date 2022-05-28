@@ -1,7 +1,9 @@
 ---
-title: 'SSGとSSRの違い'
-date: '2020-01-02'
+title: 'ドクター・ストレンジいつ見に行こう'
+date: '2020-05-28'
 ---
+# ドクター・ストレンジいつ見に行こう
+- マーベル
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
